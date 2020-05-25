@@ -4,8 +4,8 @@ Building apple webpage projects with Backgrounds and Gradients
 This is a clone application of Apple.com
 <br>
 <br>
-<img src="assets/page1.PNG" width="300"> 
-<img src="assets/page2.PNG" width="300"> 
+<img src="assets/page1.png" width="300"> 
+<img src="assets/page2.png" width="300"> 
 <br>
 
 
