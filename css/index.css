@@ -1,73 +1,67 @@
-
-
-        body{
-            margin: 0;
-            padding: 0px;
-        }
-        .main-page{
-            display: flex;
-            flex-flow: column;
-            max-width: 100%;
-        }
-        .interface {
-          background-image: url("../assets/background.jpg");
-          width:100%;
-          height: 550px;
-          background-position: bottom;          
-        }
-        .nav-bar{
-            display: flex;
-            height: 40px;
-            max-width: 900;
-            border-radius: 4px;
-            background-color: #707070;
-            margin-top: 75px;
-            margin-left: 100px;
-            margin-right: 100px;
-            justify-content: space-around;
-            flex-flow: row;
-            text-align: center;
-        }
-        .nav-list{
-            display: flex;
-            width: 105px;
-            align-items: center;
-            border-right: 1px so;
-            text-align: center;
-            height: 40px    ;
-            justify-content: center;
-            
-        }
-        .nav-list a{
-            color: seashell;
-            font-size: 15px;
-        }
-        .nav-list img{
-            width: 15px;
-            height: 15px;
-        }
-        .nav-list input{
-            width: 80px;
-            height: 12px;
-            background-color: #707070;
-            border-radius: 6px ;
-        }
-        .search img{
-            height: 14px;
-            width: 14px;
-            color: beige;
-            padding-top: 3px;
-        }
-        .search-nav{
-            border: 2px solid transparent;
-            border-radius: 6px;
-            padding-left: auto;
-            border-top: 2px solid gray;
-        }
-
-
-
-.contenu{
+body {
+    margin: 0;
+    padding: 0px;
+}
+.main-page {
+    display: flex;
+    flex-flow: column;
+    max-width: 100%;
+}
+.interface {
+    background-image: url("../assets/background.jpg");
+    width:100%;
+    height: 550px;
+    background-position: bottom;          
+}
+.nav-bar {
+    display: flex;
+    height: 40px;
+    max-width: 900;
+    border-radius: 4px;
+    background-color: #707070;
+    margin-top: 75px;
+    margin-left: 100px;
+    margin-right: 100px;
+    justify-content: space-around;
+    flex-flow: row;
+    text-align: center;
+}
+.nav-list {
+    display: flex;
+    width: 105px;
+    align-items: center;
+    border-right: 1px so;
+    text-align: center;
+    height: 40px    ;
+    justify-content: center;            
+}
+.nav-list a {
+    color: seashell;
+    font-size: 15px;
+}
+.nav-list img {
+    width: 15px;
+    height: 15px;
+}
+.nav-list input {
+    width: 80px;
+    height: 12px;
+    background-color: #707070;
+    border-radius: 6px ;
+ }
+   .search img {
+    height: 14px;
+    width: 14px;
+    color: beige;
+    padding-top: 3px;
+}
+.search-nav {
+    border: 2px solid transparent;
+    border-radius: 6px;
+    padding-left: auto;
+    border-top: 2px solid gray;
+}
+.contenu {
     display: flex;
     flex-flow: column;
     align-items: center;
@@ -78,36 +72,29 @@
 }
 a{
     text-decoration: none;
-    /*color: #fff;*/
 }
 .contenu h1 {
     font-size: 50px;
-
-
 }
-.contenu h3{
+.contenu h3 {
     font-size: 24px;
 }
 .contenu p {
     align-items: center;
     font-size: 20px;
-    justify-content: center;
+    justify-content: center ;
 }
 .contenu img {
     width: 25px;
-    height: 25px;
-    
+    height: 25px;    
     padding-left: 20px;
 }
 
-.nav-list:hover{
+.nav-list:hover {
     background-color:#444141;
     color: white;
-
 }
-
-
-.nav-list a{
+.nav-list a {
     width: 15px;
     height: 16px;
 }
@@ -122,29 +109,27 @@ a{
   }
   .grid img {
     width: 100%;
-
   }
-footer{
+footer {
     display: grid;
     grid-template-columns: auto auto;
     font-size: 12px;
     margin:auto;
     grid-column-gap: 40px;   
-    color: #606060
-    ;
+    color: #606060;
 }
-footer a{
+footer a {
     color: #0ebcf1;
 }
-.link{
+.link {
     color: #0ebcf1;
     border-right: 1px solid gray;
     padding-right: 10px;
     padding-right: 10px;
 }
-.right-foot{
+.right-foot {
     padding-top: 7px;
 }
-.right-foot img{
+.right-foot img {
     border: none;
 }
