@@ -6,22 +6,22 @@ body {
     display: flex;
     flex-flow: column;
     max-width: 100%;
+
 }
 .interface {
     background-image: url("../assets/background.jpg");
     width:100%;
     height: 550px;
-    background-position: bottom;          
+    background-position: bottom;
+    overflow: hidden;  
 }
 .nav-bar {
     display: flex;
-    height: 40px;
-    max-width: 900;
-    border-radius: 4px;
+    height: 35  px;
+    max-width: 900px;
+    border-radius: 6px;
     background-color: #707070;
-    margin-top: 75px;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin: 80px auto;
     justify-content: space-around;
     flex-flow: row;
     text-align: center;
@@ -30,9 +30,8 @@ body {
     display: flex;
     width: 105px;
     align-items: center;
-    border-right: 1px so;
-    text-align: center;
-    height: 40px    ;
+    border-right: 1px solid #606060;
+    height: 35px    ;
     justify-content: center;            
 }
 .nav-list a {
@@ -101,10 +100,8 @@ a{
 .bottom-grid {
     display: flex;
     width: 100%;
-    /*flex-flow: row;*/
     height: 200px;
     flex-wrap: nowrap;
-    border: 2px solid white;
     justify-content: flex-start;
   }
   .grid img {

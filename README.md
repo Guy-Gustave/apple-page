@@ -14,6 +14,7 @@ This is a clone application of Apple.com
   * HTML 
   * CSS (Box Model, Float, Grid, Flex and Positioning)
   * Lint (Stickler)
+  * Nu Html Checker
  
 
 ## Live demo
@@ -49,4 +50,4 @@ Give a :star: if you like this project!
 
 ## Acknowledgements
   * [Microverse](https://www.microverse.org/)
-  * [The Odin Project]https://www.theodinproject.com/courses/html5-and-css3/lessons/best-practices
+  * [The Odin Project](https://www.theodinproject.com/courses/html5-and-css3/lessons/best-practices)
