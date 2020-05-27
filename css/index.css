@@ -5,8 +5,7 @@ body {
 .main-page {
     display: flex;
     flex-flow: column;
-    max-width: 100%;
-
+        max-width: 100%;
 }
 .interface {
     background-image: url("../assets/background.jpg");
@@ -67,7 +66,7 @@ body {
     justify-content: center;
     margin-top: 40px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: #ffffff;
+    color: #fff;
 }
 a{
     text-decoration: none;
