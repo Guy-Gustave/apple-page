@@ -42,6 +42,10 @@ a {
   text-decoration: none;
 }
 
+footer a {
+  color: #0ebcf1;
+}
+
 .nav-list a {
   color: seashell;
   font-size: 15px;
@@ -108,10 +112,6 @@ a {
 .nav-list:hover {
   background-color: #444141;
   color: white;
-}
-
-footer a {
-  color: #0ebcf1;
 }
 
 .bottom-grid {
