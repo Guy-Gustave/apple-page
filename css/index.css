@@ -1,154 +1,154 @@
 body {
-    margin: 0;
-    padding: 0px;
+  margin: 0;
+  padding: 0px;
 }
 
 .main-page {
-    display: flex;
-    flex-flow: column;
-    max-width: 100%;
+  display: flex;
+  flex-flow: column;
+  max-width: 100%;
 }
 
 .interface {
-    background-image: url("../assets/background.jpg");
-    width:100%;
-    height: 550px;
-    background-position: bottom;
-    overflow: hidden;
+  background-image: url("../assets/background.jpg");
+  width:100%;
+  height: 550px;
+  background-position: bottom;
+  overflow: hidden;
 }
 
 .nav-bar {
-    display: flex;
-    height: 35  px;
-    max-width: 900px;
-    border-radius: 6px;
-    background-color: #707070;
-    margin: 80px auto;
-    justify-content: space-around;
-    flex-flow: row;
-    text-align: center;
+  display: flex;
+  height: 35  px;
+  max-width: 900px;
+  border-radius: 6px;
+  background-color: #707070;
+  margin: 80px auto;
+  justify-content: space-around;
+  flex-flow: row;
+  text-align: center;
 }
 
 .nav-list {
-    display: flex;
-    width: 105px;
-    align-items: center;
-    border-right: 1px solid #606060;
-    height: 35px;
-    justify-content: center;       
+  display: flex;
+  width: 105px;
+  align-items: center;
+  border-right: 1px solid #606060;
+  height: 35px;
+  justify-content: center;       
 }
 
 .nav-list a {
-    color: seashell;
-    font-size: 15px;
+  color: seashell;
+  font-size: 15px;
 }
 
 .nav-list img {
-    width: 15px;
-    height: 15px;
+  width: 15px;
+  height: 15px;
 }
 
 .nav-list input {
-    width: 80px;
-    height: 12px;
-    background-color: #707070;
-    border-radius: 6px;
+  width: 80px;
+  height: 12px;
+  background-color: #707070;
+  border-radius: 6px;
 }
 
 .search img {
-    height: 14px;
-    width: 14px;
-    color: beige;
-    padding-top: 3px;
+  height: 14px;
+  width: 14px;
+  color: beige;
+  padding-top: 3px;
 }
 
 .search-nav {
-    border: 2px solid transparent;
-    border-radius: 6px;
-    padding-left: auto;
-    border-top: 2px solid gray;
+  border: 2px solid transparent;
+  border-radius: 6px;
+  padding-left: auto;
+  border-top: 2px solid gray;
 }
 
 .contenu {
-    display: flex;
-    flex-flow: column;
-    align-items: center;
-    justify-content: center;
-    margin-top: 40px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: #fff;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #fff;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .contenu h1 {
-    font-size: 50px;
+  font-size: 50px;
 }
 
 .contenu h3 {
-    font-size: 24px;
+  font-size: 24px;
 }
 
 .contenu p {
-    align-items: center;
-    font-size: 20px;
-    justify-content: center ;
+  align-items: center;
+  font-size: 20px;
+  justify-content: center ;
 }
 
 .contenu img {
-    width: 25px;
-    height: 25px;    
-    padding-left: 20px;
+  width: 25px;
+  height: 25px;    
+  padding-left: 20px;
 }
 
 .nav-list:hover {
-    background-color:#444141;
-    color: white;
+  background-color:#444141;
+  color: white;
 }
 
 .nav-list a {
-    width: 15px;
-    height: 16px;
+  width: 15px;
+  height: 16px;
 }
 
 .bottom-grid {
-    display: flex;
-    width: 100%;
-    height: 200px;
-    flex-wrap: nowrap;
-    justify-content: flex-start;
+  display: flex;
+  width: 100%;
+  height: 200px;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
 }
 
 .grid img {
-    width: 100%;
+  width: 100%;
 }
 
 footer {
-    display: grid;
-    grid-template-columns: auto auto;
-    font-size: 12px;
-    margin: auto;
-    grid-column-gap: 40px;   
-    color: #606060;
+  display: grid;
+  grid-template-columns: auto auto;
+  font-size: 12px;
+  margin: auto;
+  grid-column-gap: 40px;   
+  color: #606060;
 }
 
 footer a {
-    color: #0ebcf1;
+  color: #0ebcf1;
 }
 
 .link {
-    color: #0ebcf1;
-    border-right: 1px solid gray;
-    padding-right: 10px;
-    padding-right: 10px;
+  color: #0ebcf1;
+  border-right: 1px solid gray;
+  padding-right: 10px;
+  padding-right: 10px;
 }
 
 .right-foot {
-    padding-top: 7px;
+  padding-top: 7px;
 }
 
 .right-foot img {
-    border: none;
+  border: none;
 }
