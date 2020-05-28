@@ -29,13 +29,13 @@ body {
   text-align: center;
 }
 
-.nav-list { 
+.nav-list {
   width: 105px;
   align-items: center;
   border-right: 1px solid #606060;
   height: 35px;
   justify-content: center;
-  padding-top: 12 px
+  padding-top: 12 px;
 }
 
 a {
