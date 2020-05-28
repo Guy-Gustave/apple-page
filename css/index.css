@@ -30,6 +30,7 @@ body {
 }
 
 .nav-list {
+  display: inline-flex;
   width: 105px;
   align-items: center;
   border-right: 1px solid #606060;
