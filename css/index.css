@@ -60,17 +60,27 @@ footer a {
 }
 
 .nav-list input {
-  width: 80px;
-  height: 12px;
-  background-color: #707070;
+  width: 114px;
+  height: 17px;
+  background-color: floralwhite;
   border-radius: 6px;
+  margin: 0 10px;
+  padding-left: 15px;
+  outline: none;
 }
 
 .search img {
   height: 14px;
   width: 14px;
   color: beige;
-  padding-top: 3px;
+  padding-top: 2px;
+  position: absolute;
+  left: 10px;
+}
+
+.search {
+  position: relative;
+  width: 147px;
 }
 
 .search-nav {
